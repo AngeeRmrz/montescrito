@@ -4,9 +4,11 @@ import java.util.Scanner;
 
 public class monescrito {
 	
+	private static Scanner lector;
+
 	public static void main (String[] args)
     {
-        Scanner lector=new Scanner(System.in);
+        lector = new Scanner(System.in);
         String numero;
         System.out.println("Introduzca un numero");
         numero=lector.nextLine();
@@ -176,7 +178,7 @@ public class monescrito {
                     break;
                     
                     case '5':
-                        num_fin=num_fin+" quientos";
+                        num_fin=num_fin+" quinientos";
                     break;
                     
                     case '6':
@@ -184,7 +186,7 @@ public class monescrito {
                     break;
                     
                     case '7':
-                        num_fin=num_fin+" etecientos";
+                        num_fin=num_fin+" setecientos";
                     break;
                     
                     case '8':
@@ -196,7 +198,254 @@ public class monescrito {
                     break;
                 }
             break;
-	
-	
-        }}}
+            case 4:
+                switch(split_numero[cont])
+                {
+                    case '0':
+                        num_fin=num_fin+" ";
+                    break;
+                    
+                    case '1':
+                        num_fin=num_fin+" y uno mil";
+                    break;
+                    
+                    case '2':
+                        num_fin=num_fin+" y dos mil";
+                    break;
+                    
+                    case '3':
+                        num_fin=num_fin+" y tres mil";
+                    break;
+                    
+                    case '4':
+                        num_fin=num_fin+" y cuatro mil";
+                    break;
+                    
+                    case '5':
+                        num_fin=num_fin+" y cinco mil";
+                    break;
+                    
+                    case '6':
+                        num_fin=num_fin+" y seis mil";
+                    break;
+                    
+                    case '7':
+                        num_fin=num_fin+" y siete mil";
+                    break;
+                    
+                    case '8':
+                        num_fin=num_fin+" y ocho mil";
+                    break;
+                    
+                    case '9':
+                        num_fin=num_fin+" y nueve mil";
+                    break;
+                }
+            break;
+            
+            case 5:
+            	switch(split_numero[cont]) 
+            	{
+            	
+            	case '0':
+            		break;
+            		
+            	case '1':
+            		 num_fin=num_fin+" diez";
+            		 break;
+            	case '2':
+            		 num_fin=num_fin+" diez";
+            		 break;
+            	case '3':
+            		 num_fin=num_fin+" diez";
+            		 break;
+            	case '4':
+            		 num_fin=num_fin+" diez";
+            		 break;
+            	case '5':
+            		 num_fin=num_fin+" diez";
+            		 break;
+            	case '6':
+            		 num_fin=num_fin+" diez";
+            		 break;
+            	case '7':
+            		 num_fin=num_fin+" diez";
+            		 break;
+            	case '8':
+            		 num_fin=num_fin+" diez";
+            		 break;
+            	case '9':
+            		 num_fin=num_fin+" diez";
+            		 break;
+            	
+            	}
+            break;
+            
+            case '6':
+            	switch(split_numero[cont])
+                {
+                case '0':
+                    break;
+                    
+                    case '1':
+                        num_fin=num_fin+" cien";
+                    break;
+                    case '2':
+                    	num_fin=num_fin+" doscientos";
+                    	break;
+                    case '3':
+                    	num_fin=num_fin+" trecientos";
+                    	break;
+                    case '4':
+                    	num_fin=num_fin+" cuatrocientos";
+                    	break;
+                    case '5':
+                    	num_fin=num_fin+" quinientos";
+                    	break;
+                    case '6':
+                    	num_fin=num_fin+" seicientos";
+                    	break;
+                    case '7':
+                    	num_fin=num_fin+" setecientos";
+                    	break;
+                    case '8':
+                    	num_fin=num_fin+" ochocientos";
+                    	break;
+                    case '9':
+                    	num_fin=num_fin+" novecientos";
+                    	break;
+                             	
+                }
+            break;
+            
+            case 7:
+                switch(split_numero[cont])
+                {
+                    case '0':
+                        num_fin=num_fin+" ";
+                    break;
+                    
+                    case '1':
+                        num_fin=num_fin+" y uno millones";
+                    break;
+                    
+                    case '2':
+                        num_fin=num_fin+" y dos millones";
+                    break;
+                    
+                    case '3':
+                        num_fin=num_fin+" y tres millones";
+                    break;
+                    
+                    case '4':
+                        num_fin=num_fin+" y cuatro millones";
+                    break;
+                    
+                    case '5':
+                        num_fin=num_fin+" y cinco millones";
+                    break;
+                    
+                    case '6':
+                        num_fin=num_fin+" y seis millones";
+                    break;
+                    
+                    case '7':
+                        num_fin=num_fin+" y siete millones";
+                    break;
+                    
+                    case '8':
+                        num_fin=num_fin+" y ocho millones";
+                    break;
+                    
+                    case '9':
+                        num_fin=num_fin+" y nueve millones";
+                    break;
+                }
+            break;
+            
+            case 8:
+                switch(split_numero[cont])
+                {
+                    case '0':
+                    break;
+                    
+                    case '1':
+                    	 num_fin=num_fin+" diez";
+                    	 break;
+                    case '2':
+                    	 num_fin=num_fin+" veinte";
+                    	 break;
+                    case '3':
+                    	 num_fin=num_fin+" treinta";
+                    	 break;
+                    case'4':
+                    	 num_fin=num_fin+" cuarenta";
+                    	 break;
+                    case '5':
+                    	 num_fin=num_fin+" cincuenta";
+                    	break;
+                    case '6':
+                    	 num_fin=num_fin+" sesenta";
+                    	 break;
+                    case '7':
+                    	 num_fin=num_fin+" setenta ";
+                    	 break;
+                    case '8':
+                    	 num_fin=num_fin+" diez";
+                    	 break;
+                    case '9':
+                    	 num_fin=num_fin+" diez";
+                    	 break;
+                }
+            break;
+            case 9:
+                switch(split_numero[cont])
+                {
+                    case '0':
+                    break;
+                    
+                    case '1':
+                        num_fin=num_fin+" cien";
+                    break;
+                    case '2':
+                    	num_fin=num_fin+" doscientos";
+                    	break;
+                    case '3':
+                    	num_fin=num_fin+" trecientos";
+                    	break;
+                    case '4':
+                    	num_fin=num_fin+" cuatrocientos";
+                    	break;
+                    case '5':
+                    	num_fin=num_fin+" quinientos";
+                    	break;
+                    case '6':
+                    	num_fin=num_fin+" seicientos";
+                    	break;
+                    case '7':
+                    	num_fin=num_fin+" setecientos";
+                    	break;
+                    case '8':
+                    	num_fin=num_fin+" ochocientos";
+                    	break;
+                    case '9':
+                    	num_fin=num_fin+" novecientos";
+                    	break;
+                }
+                break;
+            }
+            ubicacion=ubicacion-1;
+        }
+        System.out.println(num_fin);
+    }
 }
+                    
+                    	
+                    
+
+                
+              	
+            	
+	
+	
+  
